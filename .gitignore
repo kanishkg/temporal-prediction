@@ -1,0 +1,14 @@
+# File extensions
+*.npy
+*.pt
+*.npz
+*.png
+*.mp4
+
+# Directories
+/__pycache__
+/caches
+/caches_2
+/caches_IN
+/intphys
+/scripts/pngs
