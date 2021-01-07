@@ -82,7 +82,6 @@ def main_worker(gpu, ngpus_per_node, args):
         # torch.hub.set_dir(torch_hub_dir)
 
         # model = torch.hub.load('facebookresearch/WSL-Images', 'resnext101_32x48d_wsl')
-        # print(model)
         # model.fc = torch.nn.Identity()  # dummy layer
         # model = torch.nn.DataParallel(model).cuda()
 
@@ -90,14 +89,28 @@ def main_worker(gpu, ngpus_per_node, args):
         model.fc = torch.nn.Identity()  # dummy layer
         model = torch.nn.DataParallel(model).cuda()
 
+        # model = models.resnext50_32x4d(pretrained=True)
+        # layer_list = list(model.children())[:-2]
+        # layer_list.append(torch.nn.Flatten())
+        # layer_list.append(torch.nn.Linear(in_features=7*7*2048, out_features=3200, bias=False))
+        # model = torch.nn.Sequential(*layer_list)
+        # model = torch.nn.DataParallel(model).cuda()
+
+        print(model)
+
     cudnn.benchmark = True
 
-    # Data loading code
-    savefile_name = 'intphys_train_32'
+    # with open(os.path.join('/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15', 'O1_dev_labels.json')) as jf_1:
+    #     label_dict_1 = json.load(jf_1)
+    # labels_1 = np.array(list(label_dict_1.values()))
 
-    # with open(os.path.join('/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15', 'O3_dev_labels.json')) as jf:
-    #     label_dict = json.load(jf)
-    # labels = np.array(list(label_dict.values()))
+    # with open(os.path.join('/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15', 'O2_dev_labels.json')) as jf_2:
+    #     label_dict_2 = json.load(jf_2)
+    # labels_2 = np.array(list(label_dict_2.values()))
+
+    with open(os.path.join('/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15', 'O3_dev_labels.json')) as jf_3:
+        label_dict_3 = json.load(jf_3)
+    labels_3 = np.array(list(label_dict_3.values()))
 
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
@@ -114,7 +127,10 @@ def main_worker(gpu, ngpus_per_node, args):
 
     embeddings, components = evaluate(train_loader, model, args)
     
-    np.savez(savefile_name, x=embeddings, W=components)
+    # np.savez('intphys_train_in', x=embeddings, W=components)
+    # np.savez('intphys_dev_O1_in', x=embeddings, W=components, y=labels_1)
+    # np.savez('intphys_dev_O2_in', x=embeddings, W=components, y=labels_2)
+    np.savez('intphys_dev_O3_in', x=embeddings, W=components, y=labels_3)
 
     return
 

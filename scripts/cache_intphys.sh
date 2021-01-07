@@ -15,8 +15,7 @@ module load cuda-10.1
 python -u /misc/vlgscratch4/LakeGroup/emin/temporal-prediction/cache_intphys.py \
 --n_out 6269 \
 --model-path '' \
---data-dir '/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15/train' \
---pca
+--data-dir '/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15/dev/O3'
 
 # /misc/vlgscratch4/LakeGroup/emin/headcam/preprocessing/self_supervised_models/TC-SAY-resnext.tar
 echo "Done"
