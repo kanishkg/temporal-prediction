@@ -1,1 +1,0 @@
-Namespace(batch_size=256, cuda=True, data='IN_S_15fps_1024', dropout=0.1, dry_run=False, epochs=500, lr=0.0005, nhead=4, nhid=512, nlayers=4, seed=1111, tied=False)

@@ -8,17 +8,17 @@ import torchvision.datasets as datasets
 
 # O1, video index from 0 to 29
 
-data = np.load('Transformer_outputs.npz')
-y = data['o1']
-labels = data['y1']
+data = np.load('IN_Y_15fps_1024_log.npz')
+y = data['o3']
+labels = data['y3']
 print(y.shape)
 print(labels.shape)
 
-trial = 10
+trial = 1
 
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 train_dataset = datasets.ImageFolder(
-    '/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15/dev/O1',
+    '/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15/dev/O3',
     transforms.Compose([transforms.ToTensor(), normalize])
 )
 
@@ -67,4 +67,4 @@ for i in np.arange(4*trial, 4*trial+4):
         mp.rcParams['patch.linewidth'] = 1.15
         mp.rcParams['font.sans-serif'] = ['FreeSans']
         mp.rcParams['mathtext.fontset'] = 'cm'
-        plt.savefig('./pngs/O1/' + str(trial) + '/anim' + '{:05d}'.format(counter) + '.png', bbox_inches='tight')
+        plt.savefig('./pngs/O3/' + str(trial) + '/anim' + '{:05d}'.format(counter) + '.png', bbox_inches='tight')

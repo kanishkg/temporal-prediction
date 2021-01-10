@@ -12,12 +12,13 @@ import sklearn.metrics as metrics
 import model
 
 parser = argparse.ArgumentParser(description='SAYCam Temporal Prediction Model')
-parser.add_argument('--data', type=str, default='intphys', choices=['IN_S_15fps_1024', 'IN_A_15fps_1024', 'IN_Y_15fps_1024', 'intphys'], help='cached frame embeddings')
-parser.add_argument('--nhid', type=int, default=512, help='number of hidden units per layer')
+parser.add_argument('--embedding-model', type=str, default='say', choices=['say', 'in', 'rand'], help='embedding model')
+parser.add_argument('--data', type=str, default='a', choices=['s', 'a', 'y', 'intphys'], help='data for training the dynamics model')
+parser.add_argument('--nhid', type=int, default=1024, help='number of hidden units per layer')
 parser.add_argument('--nlayers', type=int, default=4, help='number of layers')
 parser.add_argument('--lr', type=float, default=0.0005, help='initial learning rate')
 parser.add_argument('--epochs', type=int, default=500, help='upper epoch limit')
-parser.add_argument('--batch_size', type=int, default=256, metavar='N', help='batch size')
+parser.add_argument('--batch-size', type=int, default=96, metavar='N', help='batch size')
 parser.add_argument('--dropout', type=float, default=0.1, help='dropout applied to layers (0 = no dropout)')
 parser.add_argument('--tied', action='store_true', help='tie the embedding and softmax weights')
 parser.add_argument('--seed', type=int, default=1111, help='random seed')
@@ -44,7 +45,7 @@ if args.data == 'intphys':
     x_W = np.load('../intphys/intphys_train_in.npz')
     train_data = x_W['x']
 else:
-    x_W = np.load('../caches_IN/' + args.data + '.npz')  # T x emsize
+    x_W = np.load('../caches_saycam/' + args.embedding_model + '_' + args.data + '_15fps_1024' + '.npz')  # T x emsize
     train_data = x_W['x']
     trim_end = (train_data.shape[0] // 100) * 100
     train_data = train_data[:trim_end, :]
@@ -68,9 +69,9 @@ emsize = train_data.size(2)
 # Load intphys
 ###############################################################################
 
-intphys_devfile_o1 = 'intphys_dev_O1_in.npz'
-intphys_devfile_o2 = 'intphys_dev_O2_in.npz'
-intphys_devfile_o3 = 'intphys_dev_O3_in.npz'
+intphys_devfile_o1 = 'intphys_dev_O1_' + args.embedding_model + '.npz'
+intphys_devfile_o2 = 'intphys_dev_O2_' + args.embedding_model + '.npz'
+intphys_devfile_o3 = 'intphys_dev_O3_' + args.embedding_model + '.npz'
 
 def load_intphys(filename):
     intphys = np.load('../intphys/' + filename)
@@ -165,8 +166,8 @@ try:
         print('-' * 89)
         print('| end of epoch {:3d} | time: {:5.2f}s | training loss {:5.4f} | '.format(epoch, (time.time() - epoch_start_time), tr_losses[-1]))
         print('-' * 89)
-        np.savez(args.data + '_log.npz', o1=o1, o2=o2, o3=o3, y1=y1, y2=y2, y3=y3, tr_losses=np.array(tr_losses))
-        torch.save({'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict()}, args.data + '_model' + '.tar')
+        np.savez(args.embedding_model + '_' + args.data + '_log.npz', o1=o1, o2=o2, o3=o3, y1=y1, y2=y2, y3=y3, tr_losses=np.array(tr_losses))
+        torch.save({'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict()}, args.embedding_model + '_' + args.data + '_model' + '.tar')
 except KeyboardInterrupt:
     print('-' * 89)
     print('Exiting from training early')

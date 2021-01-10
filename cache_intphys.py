@@ -24,9 +24,9 @@ import torchvision.models as models
 parser = argparse.ArgumentParser(description='Cache IntPhys embeddings')
 parser.add_argument('--workers', default=32, type=int, metavar='N', help='number of data loading workers')
 parser.add_argument('--batch-size', default=100, type=int, metavar='N', help='mini-batch size (default: 100)')
-parser.add_argument('--model-path', default='', type=str, metavar='PATH', help='path to model checkpoint (default: none)')
+parser.add_argument('--model', default='say', type=str, choices=['say', 'in', 'rand'], help='which model to use for caching')
 parser.add_argument('--data-dir', default='', type=str, metavar='PATH', help='path to data (default: none)')
-parser.add_argument('--n_out', default=20, type=int, help='output dim')
+parser.add_argument('--data', default='train', type=str, choices=['train', 'O1', 'O2', 'O3'], help='which subset of intphys')
 parser.add_argument('--world-size', default=-1, type=int, help='number of nodes for distributed training')
 parser.add_argument('--rank', default=-1, type=int, help='node rank for distributed training')
 parser.add_argument('--dist-url', default='tcp://224.66.41.62:23456', type=str, help='url used to set up distributed training')
@@ -38,6 +38,7 @@ parser.add_argument('--pca', default=False, action='store_true', help='whether t
 
 def main():
     args = parser.parse_args()
+    print(args)
 
     if args.gpu is not None:
         warnings.warn('You have chosen a specific GPU. This will completely disable data parallelism.')
@@ -64,59 +65,47 @@ def main_worker(gpu, ngpus_per_node, args):
     if args.gpu is not None:
         print("Use GPU: {} for training".format(args.gpu))
 
-    if args.model_path:
+    if args.model == 'say':
         model = models.resnext50_32x4d(pretrained=False)
-        model.fc = torch.nn.Linear(in_features=2048, out_features=args.n_out, bias=True)
+        model.fc = torch.nn.Linear(in_features=2048, out_features=6269, bias=True)
         model = torch.nn.DataParallel(model).cuda()
 
-        if os.path.isfile(args.model_path):
-            print("=> loading model: '{}'".format(args.model_path))
-            checkpoint = torch.load(args.model_path)
+        model_path = '/misc/vlgscratch4/LakeGroup/emin/headcam/preprocessing/self_supervised_models/TC-SAY-resnext.tar'
+
+        if os.path.isfile(model_path):
+            print("=> loading model: '{}'".format(model_path))
+            checkpoint = torch.load(model_path)
             model.load_state_dict(checkpoint['model_state_dict'])
         else:
-            print("=> no checkpoint found at '{}'".format(args.model_path))
+            print("=> no checkpoint found at '{}'".format(model_path))
 
         model.module.fc = torch.nn.Identity()  # dummy layer
-    else:
-        # torch_hub_dir = '/misc/vlgscratch4/LakeGroup/emin/robust_vision/pretrained_models'
-        # torch.hub.set_dir(torch_hub_dir)
-
-        # model = torch.hub.load('facebookresearch/WSL-Images', 'resnext101_32x48d_wsl')
-        # model.fc = torch.nn.Identity()  # dummy layer
-        # model = torch.nn.DataParallel(model).cuda()
-
+    elif args.model == 'in':
+        print('Loading the ImageNet pre-trained model')
         model = models.resnext50_32x4d(pretrained=True)
         model.fc = torch.nn.Identity()  # dummy layer
         model = torch.nn.DataParallel(model).cuda()
-
-        # model = models.resnext50_32x4d(pretrained=True)
-        # layer_list = list(model.children())[:-2]
-        # layer_list.append(torch.nn.Flatten())
-        # layer_list.append(torch.nn.Linear(in_features=7*7*2048, out_features=3200, bias=False))
-        # model = torch.nn.Sequential(*layer_list)
-        # model = torch.nn.DataParallel(model).cuda()
-
-        print(model)
+    elif args.model == 'rand':
+        print('Loading the untrained model')
+        model = models.resnext50_32x4d(pretrained=False)
+        model.fc = torch.nn.Identity()  # dummy layer
+        model = torch.nn.DataParallel(model).cuda()
 
     cudnn.benchmark = True
 
-    # with open(os.path.join('/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15', 'O1_dev_labels.json')) as jf_1:
-    #     label_dict_1 = json.load(jf_1)
-    # labels_1 = np.array(list(label_dict_1.values()))
+    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
-    # with open(os.path.join('/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15', 'O2_dev_labels.json')) as jf_2:
-    #     label_dict_2 = json.load(jf_2)
-    # labels_2 = np.array(list(label_dict_2.values()))
-
-    with open(os.path.join('/misc/vlgscratch4/LakeGroup/emin/baby-vision-video/intphys_frames/fps_15', 'O3_dev_labels.json')) as jf_3:
-        label_dict_3 = json.load(jf_3)
-    labels_3 = np.array(list(label_dict_3.values()))
-
-    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                     std=[0.229, 0.224, 0.225])
+    if args.data == 'O1':
+        data_path = os.path.join(args.data_dir, 'dev/O1')
+    elif args.data == 'O2':
+        data_path = os.path.join(args.data_dir, 'dev/O2')
+    elif args.data == 'O3':
+        data_path = os.path.join(args.data_dir, 'dev/O3')
+    elif args.data == 'train':
+        data_path = os.path.join(args.data_dir, 'train')
 
     train_dataset = datasets.ImageFolder(
-        args.data_dir,
+        data_path,
         transforms.Compose([transforms.Resize(224), transforms.ToTensor(), normalize])
     )
 
@@ -127,13 +116,25 @@ def main_worker(gpu, ngpus_per_node, args):
 
     embeddings, components = evaluate(train_loader, model, args)
     
-    # np.savez('intphys_train_in', x=embeddings, W=components)
-    # np.savez('intphys_dev_O1_in', x=embeddings, W=components, y=labels_1)
-    # np.savez('intphys_dev_O2_in', x=embeddings, W=components, y=labels_2)
-    np.savez('intphys_dev_O3_in', x=embeddings, W=components, y=labels_3)
+    if args.data == 'O1': 
+        with open(os.path.join(args.data_dir, 'O1_dev_labels.json')) as jf_1:
+            label_dict_1 = json.load(jf_1)
+        labels_1 = np.array(list(label_dict_1.values()))
+        np.savez('intphys_dev_O1_' + args.model, x=embeddings, W=components, y=labels_1)
+    elif args.data == 'O2':
+        with open(os.path.join(args.data_dir, 'O2_dev_labels.json')) as jf_2:
+            label_dict_2 = json.load(jf_2)
+        labels_2 = np.array(list(label_dict_2.values()))
+        np.savez('intphys_dev_O2_' + args.model, x=embeddings, W=components, y=labels_2)
+    elif args.data == 'O3':
+        with open(os.path.join(args.data_dir, 'O3_dev_labels.json')) as jf_3:
+            label_dict_3 = json.load(jf_3)
+        labels_3 = np.array(list(label_dict_3.values()))
+        np.savez('intphys_dev_O3_' + args.model, x=embeddings, W=components, y=labels_3)
+    elif args.data == 'train':
+        np.savez('intphys_train_' + args.model, x=embeddings, W=components)
 
     return
-
 
 def evaluate(data_loader, model, args):
 
