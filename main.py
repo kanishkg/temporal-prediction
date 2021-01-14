@@ -17,8 +17,8 @@ parser.add_argument('--data', type=str, default='a', choices=['s', 'a', 'y', 'in
 parser.add_argument('--nhid', type=int, default=1024, help='number of hidden units per layer')
 parser.add_argument('--nlayers', type=int, default=4, help='number of layers')
 parser.add_argument('--lr', type=float, default=0.0005, help='initial learning rate')
-parser.add_argument('--epochs', type=int, default=500, help='upper epoch limit')
-parser.add_argument('--batch-size', type=int, default=96, metavar='N', help='batch size')
+parser.add_argument('--epochs', type=int, default=100, help='upper epoch limit')
+parser.add_argument('--batch-size', type=int, default=256, metavar='N', help='batch size')
 parser.add_argument('--dropout', type=float, default=0.1, help='dropout applied to layers (0 = no dropout)')
 parser.add_argument('--tied', action='store_true', help='tie the embedding and softmax weights')
 parser.add_argument('--seed', type=int, default=1111, help='random seed')
@@ -42,7 +42,7 @@ device = torch.device("cuda" if args.cuda else "cpu")
 ###############################################################################
 
 if args.data == 'intphys':
-    x_W = np.load('../intphys/intphys_train_in.npz')
+    x_W = np.load('../intphys/intphys_train_' + args.embedding_model + '.npz')
     train_data = x_W['x']
 else:
     x_W = np.load('../caches_saycam/' + args.embedding_model + '_' + args.data + '_15fps_1024' + '.npz')  # T x emsize
@@ -108,7 +108,7 @@ def get_batch(source, batch_size):
     return data, target
 
 def evaluate_intphys(intphys_x, intphys_y):
-    # Turn on evaluation mode which disables dropout.
+
     model.eval()
     
     with torch.no_grad():
@@ -132,7 +132,7 @@ def evaluate_intphys(intphys_x, intphys_y):
 tr_losses = [] 
 
 def train():
-    # Turn on training mode which enables dropout.
+
     model.train()
     total_loss = 0.
     

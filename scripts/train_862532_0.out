@@ -1,1 +1,0 @@
-Namespace(batch_size=96, cuda=True, data='a', dropout=0.1, dry_run=False, embedding_model='rand', epochs=500, lr=0.0005, nhead=4, nhid=1024, nlayers=4, seed=1111, tied=False)

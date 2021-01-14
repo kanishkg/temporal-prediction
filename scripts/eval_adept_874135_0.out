@@ -1,0 +1,1946 @@
+Namespace(data='train', data_dir='/misc/vlgscratch4/LakeGroup/emin/ADEPT/test', dist_backend='nccl', dist_url='tcp://224.66.41.62:23456', dynamics_data='a', embedding_model='in', gpu=None, multiprocessing_distributed=False, pca=False, rank=-1, workers=32, world_size=-1)
+=> loading the ImageNet pre-trained model
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0000_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1634], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0000_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1626], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0001_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1566], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0001_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1559], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0002_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1854], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0002_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1859], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0003_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1913], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0003_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1902], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0004_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1610], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0004_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1595], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0005_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1529], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0005_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1523], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0006_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1620], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0006_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1624], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0007_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1552], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0007_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1558], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0008_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1947], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0008_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1929], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0009_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1888], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0009_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1832], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0010_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1781], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0010_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1773], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0011_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1933], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0011_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1946], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0012_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2077], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0012_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2080], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0013_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1601], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0013_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1634], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0014_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1696], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0014_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1689], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0015_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1817], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0015_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1820], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0016_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1509], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0016_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1514], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0017_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1580], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0017_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1577], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0018_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1794], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0018_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1812], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0019_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1881], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0019_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1836], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0020_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1688], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0020_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1695], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0021_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1705], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0021_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1725], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0022_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1824], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0022_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1829], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0023_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2108], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0023_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2085], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0024_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1701], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0024_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1692], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0025_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1521], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0025_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1537], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0026_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1964], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0026_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1979], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0027_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1840], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0027_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1842], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0028_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1477], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0028_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1493], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0029_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1659], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0029_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1657], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0030_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1667], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0030_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1657], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0031_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1502], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0031_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1506], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0032_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1864], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0032_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1874], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0033_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1834], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0033_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1829], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0034_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1498], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0034_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1500], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0035_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1781], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0035_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1784], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0036_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1761], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0036_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1726], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0037_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1749], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0037_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1768], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0038_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1901], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0038_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1920], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0039_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1691], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0039_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1692], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0040_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1611], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0040_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1612], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0041_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1860], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0041_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1856], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0042_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1951], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0042_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1959], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0043_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1953], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0043_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1938], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0044_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1649], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0044_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1659], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0045_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1891], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0045_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1897], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0046_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1714], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0046_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1725], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0047_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1776], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0047_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1773], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0048_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2271], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0048_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2277], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0049_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1598], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0049_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1599], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0050_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1747], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0050_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1754], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0051_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1947], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0051_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1960], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0052_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1513], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0052_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1508], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0053_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1478], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0053_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1483], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0054_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1758], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_0054_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1747], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_boot_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1575], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_boot_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1591], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_bowling_pin_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1537], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_bowling_pin_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1535], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_cone_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1911], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_cone_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1910], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_cube_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1761], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_cube_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1746], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_cylinder_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1854], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_cylinder_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1870], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_sphere_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1995], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_sphere_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1998], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_toy_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1504], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_toy_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1533], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_truck_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2107], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_block_truck_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.2084], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0000_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1635], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0000_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1639], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0001_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1648], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0001_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1634], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0002_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1622], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0002_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1616], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0003_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1662], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0003_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1646], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0004_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1528], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0004_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1525], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0005_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1580], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0005_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1579], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0006_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1706], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0006_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1703], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0007_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1674], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0007_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1670], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0008_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1599], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0008_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1580], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0009_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1646], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0009_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1618], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0010_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1667], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0010_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1620], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0011_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1596], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0011_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1595], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0012_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1635], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0012_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1620], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0013_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1729], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0013_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1706], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0014_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1709], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0014_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1700], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0015_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1698], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0015_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1699], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0016_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1569], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0016_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1546], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0017_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1628], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0017_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1617], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0018_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1586], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0018_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1567], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0019_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1643], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0019_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1623], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0020_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1645], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0020_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1650], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0021_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1576], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0021_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1567], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0022_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1618], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0022_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1599], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0023_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1677], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0023_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1667], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0024_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1659], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0024_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1646], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0025_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1575], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0025_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1562], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0026_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1578], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0026_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1557], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0027_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1753], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0027_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1653], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0028_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1686], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0028_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1658], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0029_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1485], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0029_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1477], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0030_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1577], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0030_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1575], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0031_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1521], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0031_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1509], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0032_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1764], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0032_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1722], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0033_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1700], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0033_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1696], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0034_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1689], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0034_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1660], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0035_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1584], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0035_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1574], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0036_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1653], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0036_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1650], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0037_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1637], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0037_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1638], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0038_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1529], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0038_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1524], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0039_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1653], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0039_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1645], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0040_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1640], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0040_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1601], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0041_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1648], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0041_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1614], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0042_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1547], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0042_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1554], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0043_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1616], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0043_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1611], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0044_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1635], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0044_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1634], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0045_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1548], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0045_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1684], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0046_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1580], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0046_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1551], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0047_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1657], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0047_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1634], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0048_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1662], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0048_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1604], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0049_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1831], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0049_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1765], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0050_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1646], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0050_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1636], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0051_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1540], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0051_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1536], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0052_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1547], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0052_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1526], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0053_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1551], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0053_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1559], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0054_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1702], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_0054_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1686], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_boot_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1626], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_boot_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1620], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_bowling_pin_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1525], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_bowling_pin_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1508], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_cone_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1695], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_cone_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1647], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_cube_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1606], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_cube_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1581], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_cylinder_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1612], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_cylinder_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1585], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_sphere_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1824], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_sphere_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1777], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_toy_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1730], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_toy_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1676], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_truck_0
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1533], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_delay_truck_1
+Dataset size: 213
+Loader size: 1
+Embeddings shape: torch.Size([213, 1, 1024])
+tensor([0.1521], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0000_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1601], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0000_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1592], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0000_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1589], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0000_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1579], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0000_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1549], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0001_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1607], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0001_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1607], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0001_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1604], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0001_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1584], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0001_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1656], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0002_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1825], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0002_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1787], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0002_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1740], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0002_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1672], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0002_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1905], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0003_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1596], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0003_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1580], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0003_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1554], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0003_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1537], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0003_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1644], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0004_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1668], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0004_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1758], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0004_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1641], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0004_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1736], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0004_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1709], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0005_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1635], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0005_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1631], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0005_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1647], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0005_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1638], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0005_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1556], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0006_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1625], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0006_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1643], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0006_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1631], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0006_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1653], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0006_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1585], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0007_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1631], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0007_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1661], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0007_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1603], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0007_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1632], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0007_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1692], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0008_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1600], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0008_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1608], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0008_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1561], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0008_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1550], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0008_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1620], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0009_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1587], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0009_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1575], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0009_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1560], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0009_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1531], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0009_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1618], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0010_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1579], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0010_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1595], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0010_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1547], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0010_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1553], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0010_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1655], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0011_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1601], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0011_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1607], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0011_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1607], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0011_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1596], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0011_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1575], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0012_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1725], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0012_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1756], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0012_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1717], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0012_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1714], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0012_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1747], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0013_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1680], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0013_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1632], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0013_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1699], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0013_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1631], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0013_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1610], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0014_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1680], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0014_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1677], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0014_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1658], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0014_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1641], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0014_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1680], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0015_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1926], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0015_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1809], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0015_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1851], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0015_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1752], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0015_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1763], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0016_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1605], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0016_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1670], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0016_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1581], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0016_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1650], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0016_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1620], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0017_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1713], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0017_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1798], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0017_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1677], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0017_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1793], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0017_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1884], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0018_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1825], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0018_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1757], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0018_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1812], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0018_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1738], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0018_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1796], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0019_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1640], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0019_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1644], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0019_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1598], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0019_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1606], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0019_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1725], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0020_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1560], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0020_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1595], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0020_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1559], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0020_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1589], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0020_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1564], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0021_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1780], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0021_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1716], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0021_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1744], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0021_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1664], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0021_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1666], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0022_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1846], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0022_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1818], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0022_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1822], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0022_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1779], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0022_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1656], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0023_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1823], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0023_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1855], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0023_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1791], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0023_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1832], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0023_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1824], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0024_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1549], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0024_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1636], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0024_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1551], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0024_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1629], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0024_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1639], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0025_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1805], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0025_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1796], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0025_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1794], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0025_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1757], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0025_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1747], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0026_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1684], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0026_1
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1678], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0026_2
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1656], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0026_3
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1659], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0026_4
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1829], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0027_0
+Dataset size: 175
+Loader size: 1
+Embeddings shape: torch.Size([175, 1, 1024])
+tensor([0.1777], device='cuda:0') torch.Size([1])
+Directory: /misc/vlgscratch4/LakeGroup/emin/ADEPT/test/human_disappear_0027_1
+Dataset size: 175
+Loader size: 1
+slurmstepd: error: *** JOB 874135 ON lion10 CANCELLED AT 2021-01-14T13:57:40 ***

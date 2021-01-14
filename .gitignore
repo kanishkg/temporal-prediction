@@ -4,6 +4,7 @@
 *.npz
 *.png
 *.mp4
+*.tar
 
 # Directories
 /__pycache__

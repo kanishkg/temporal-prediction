@@ -1,0 +1,1816 @@
+Namespace(batch_size=100, cuda=True, data='s', dropout=0.1, dry_run=False, embedding_model='in', epochs=100, lr=0.0005, nhead=4, nhid=1024, nlayers=4, seed=1111, tied=False)
+Loaded data
+Training data size:  (71997, 100, 1024)
+Number of training iterations per epoch 719
+Previous embedding loss on training data is  0.18571617026570056
+IntPhys correct frac (rel) is  0.9 IntPhys correct frac (abs) is  0.505
+IntPhys correct frac (rel) is  0.8833333333333333 IntPhys correct frac (abs) is  0.5025
+IntPhys correct frac (rel) is  0.5666666666666667 IntPhys correct frac (abs) is  0.5013888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch   1 | time: 110.00s | training loss 0.3304 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5138888888888888
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5208333333333334
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5033333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch   2 | time: 109.75s | training loss 0.2464 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5227777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5327777777777778
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5038888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch   3 | time: 109.76s | training loss 0.2170 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5338888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5033333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch   4 | time: 109.75s | training loss 0.2067 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5280555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5433333333333333
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch   5 | time: 109.77s | training loss 0.2018 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5433333333333333
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch   6 | time: 109.75s | training loss 0.1984 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5341666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.546111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5080555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch   7 | time: 109.74s | training loss 0.1960 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5433333333333333
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch   8 | time: 109.74s | training loss 0.1939 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5363888888888888
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5488888888888888
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5066666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch   9 | time: 109.75s | training loss 0.1924 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5308333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5425
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5083333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  10 | time: 109.74s | training loss 0.1911 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5327777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5394444444444444
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  11 | time: 109.75s | training loss 0.1899 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5313888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5413888888888889
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.508888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  12 | time: 109.76s | training loss 0.1892 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5388888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5075
+-----------------------------------------------------------------------------------------
+| end of epoch  13 | time: 109.74s | training loss 0.1885 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5280555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222222
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  14 | time: 109.73s | training loss 0.1879 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5344444444444444
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5063888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  15 | time: 109.75s | training loss 0.1874 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5261111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5366666666666667
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  16 | time: 109.74s | training loss 0.1871 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5227777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5302777777777777
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch  17 | time: 109.73s | training loss 0.1867 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5216666666666666
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5347222222222222
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  18 | time: 109.72s | training loss 0.1864 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5258333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  19 | time: 109.73s | training loss 0.1859 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5213888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5330555555555556
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  20 | time: 109.74s | training loss 0.1860 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5258333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5361111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  21 | time: 109.73s | training loss 0.1856 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5261111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  22 | time: 109.73s | training loss 0.1854 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5075000000000001
+-----------------------------------------------------------------------------------------
+| end of epoch  23 | time: 109.73s | training loss 0.1853 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5247222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5341666666666667
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5077777777777779
+-----------------------------------------------------------------------------------------
+| end of epoch  24 | time: 109.73s | training loss 0.1849 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5255555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5355555555555556
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  25 | time: 109.73s | training loss 0.1847 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5266666666666666
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  26 | time: 109.73s | training loss 0.1846 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5033333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  27 | time: 109.72s | training loss 0.1848 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5236111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222223
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  28 | time: 109.74s | training loss 0.1846 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5249999999999999
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5363888888888888
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  29 | time: 109.73s | training loss 0.1844 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5366666666666666
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  30 | time: 109.72s | training loss 0.1844 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5258333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5358333333333334
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  31 | time: 109.73s | training loss 0.1839 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5252777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5277777777777778
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  32 | time: 109.73s | training loss 0.1839 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  33 | time: 109.73s | training loss 0.1839 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5280555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5344444444444445
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5036111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  34 | time: 109.72s | training loss 0.1839 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5247222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  35 | time: 109.74s | training loss 0.1835 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.526388888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5261111111111112
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  36 | time: 109.74s | training loss 0.1838 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5269444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5349999999999999
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  37 | time: 109.72s | training loss 0.1836 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5244444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  38 | time: 109.73s | training loss 0.1833 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5302777777777778
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  39 | time: 109.74s | training loss 0.1835 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666666
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  40 | time: 109.72s | training loss 0.1831 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5338888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  41 | time: 109.74s | training loss 0.1833 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5233333333333332
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  42 | time: 109.72s | training loss 0.1833 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5244444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  43 | time: 109.73s | training loss 0.1830 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5255555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222222
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5080555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  44 | time: 109.73s | training loss 0.1831 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.525
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5038888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  45 | time: 109.74s | training loss 0.1830 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5191666666666668
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5302777777777778
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  46 | time: 109.74s | training loss 0.1829 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5241666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  47 | time: 109.74s | training loss 0.1829 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.525
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.528888888888889
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  48 | time: 109.73s | training loss 0.1828 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.525
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  49 | time: 109.73s | training loss 0.1827 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5255555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5288888888888889
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  50 | time: 109.73s | training loss 0.1827 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.528888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5319444444444444
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  51 | time: 109.73s | training loss 0.1826 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5049999999999999
+-----------------------------------------------------------------------------------------
+| end of epoch  52 | time: 109.74s | training loss 0.1826 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5241666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5302777777777777
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  53 | time: 109.72s | training loss 0.1825 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5244444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5280555555555555
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  54 | time: 109.73s | training loss 0.1827 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  55 | time: 109.73s | training loss 0.1825 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5233333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5247222222222223
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5049999999999999
+-----------------------------------------------------------------------------------------
+| end of epoch  56 | time: 109.72s | training loss 0.1824 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5208333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  57 | time: 109.74s | training loss 0.1825 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5255555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888889
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5038888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  58 | time: 109.72s | training loss 0.1825 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9333333333333333 IntPhys correct frac (abs) is  0.5288888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.528888888888889
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5063888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  59 | time: 109.75s | training loss 0.1824 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5308333333333333
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5052777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  60 | time: 109.75s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5066666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  61 | time: 109.74s | training loss 0.1823 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5252777777777777
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444445
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  62 | time: 109.74s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5205555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5280555555555555
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.506388888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  63 | time: 109.74s | training loss 0.1822 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5197222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  64 | time: 109.73s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5208333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5283333333333333
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  65 | time: 109.74s | training loss 0.1820 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5319444444444444
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5063888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  66 | time: 109.73s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5222222222222221
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5080555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  67 | time: 109.73s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5269444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  68 | time: 109.74s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5211111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5283333333333333
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  69 | time: 109.74s | training loss 0.1820 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5291666666666666
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  70 | time: 109.73s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5269444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5277777777777778
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5080555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  71 | time: 109.73s | training loss 0.1820 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5247222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888889
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5077777777777779
+-----------------------------------------------------------------------------------------
+| end of epoch  72 | time: 109.73s | training loss 0.1819 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5222222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5083333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  73 | time: 109.74s | training loss 0.1819 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5194444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5249999999999999
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5091666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  74 | time: 109.73s | training loss 0.1820 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5222222222222221
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5277777777777778
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  75 | time: 109.74s | training loss 0.1819 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.523611111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5275
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  76 | time: 109.75s | training loss 0.1819 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5252777777777777
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5308333333333334
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  77 | time: 109.74s | training loss 0.1820 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5247222222222223
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5083333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  78 | time: 109.73s | training loss 0.1820 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.52
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5283333333333333
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.506388888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  79 | time: 109.75s | training loss 0.1818 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.518888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  80 | time: 109.72s | training loss 0.1818 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777777
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5041666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  81 | time: 109.75s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5227777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5288888888888889
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  82 | time: 109.72s | training loss 0.1816 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.52
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  83 | time: 109.73s | training loss 0.1818 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5202777777777777
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  84 | time: 109.74s | training loss 0.1816 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5211111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5305555555555556
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  85 | time: 109.72s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5238888888888888
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  86 | time: 109.73s | training loss 0.1816 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5183333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5283333333333333
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5080555555555556
+-----------------------------------------------------------------------------------------
+| end of epoch  87 | time: 109.72s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5208333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888888
+IntPhys correct frac (rel) is  0.8 IntPhys correct frac (abs) is  0.5088888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  88 | time: 109.74s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9333333333333333 IntPhys correct frac (abs) is  0.5161111111111112
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5291666666666667
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5041666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  89 | time: 109.73s | training loss 0.1818 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5244444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  90 | time: 109.73s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666667
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.508888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  91 | time: 109.74s | training loss 0.1818 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5219444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666666
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  92 | time: 109.74s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5247222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5327777777777778
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  93 | time: 109.72s | training loss 0.1814 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5177777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444445
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  94 | time: 109.74s | training loss 0.1816 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5205555555555557
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5291666666666668
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  95 | time: 109.74s | training loss 0.1816 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5180555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5330555555555556
+IntPhys correct frac (rel) is  0.8333333333333334 IntPhys correct frac (abs) is  0.5097222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  96 | time: 109.74s | training loss 0.1816 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5213888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  97 | time: 109.73s | training loss 0.1816 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5075
+-----------------------------------------------------------------------------------------
+| end of epoch  98 | time: 109.74s | training loss 0.1815 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.52
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5313888888888889
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5077777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  99 | time: 109.78s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5222222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5336111111111111
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5080555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch 100 | time: 109.76s | training loss 0.1815 | 
+-----------------------------------------------------------------------------------------
+Namespace(batch_size=256, cuda=True, data='a', dropout=0.1, dry_run=False, embedding_model='in', epochs=100, lr=0.0005, nhead=4, nhid=1024, nlayers=4, seed=1111, tied=False)
+Loaded data
+Training data size:  (56177, 100, 1024)
+Number of training iterations per epoch 219
+Previous embedding loss on training data is  0.1764743761050161
+IntPhys correct frac (rel) is  0.5 IntPhys correct frac (abs) is  0.5
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5033333333333333
+IntPhys correct frac (rel) is  0.48333333333333334 IntPhys correct frac (abs) is  0.49972222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch   1 | time: 83.96s | training loss 0.3859 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5016666666666667
+IntPhys correct frac (rel) is  0.9333333333333333 IntPhys correct frac (abs) is  0.5025000000000001
+IntPhys correct frac (rel) is  0.48333333333333334 IntPhys correct frac (abs) is  0.5011111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch   2 | time: 83.85s | training loss 0.2945 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9333333333333333 IntPhys correct frac (abs) is  0.5005555555555555
+IntPhys correct frac (rel) is  0.8666666666666667 IntPhys correct frac (abs) is  0.5033333333333334
+IntPhys correct frac (rel) is  0.7166666666666667 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch   3 | time: 83.92s | training loss 0.2669 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9333333333333333 IntPhys correct frac (abs) is  0.5008333333333334
+IntPhys correct frac (rel) is  0.9 IntPhys correct frac (abs) is  0.5030555555555556
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5027777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch   4 | time: 83.84s | training loss 0.2541 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9333333333333333 IntPhys correct frac (abs) is  0.5088888888888888
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5047222222222222
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5027777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch   5 | time: 83.92s | training loss 0.2387 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5133333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5172222222222221
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5025
+-----------------------------------------------------------------------------------------
+| end of epoch   6 | time: 83.91s | training loss 0.2259 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5116666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.525
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5027777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch   7 | time: 83.80s | training loss 0.2162 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5166666666666666
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5361111111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5036111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch   8 | time: 83.89s | training loss 0.2094 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.518888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5358333333333334
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.506388888888889
+-----------------------------------------------------------------------------------------
+| end of epoch   9 | time: 83.94s | training loss 0.2043 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5352777777777779
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch  10 | time: 83.88s | training loss 0.2003 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5049999999999999
+-----------------------------------------------------------------------------------------
+| end of epoch  11 | time: 83.91s | training loss 0.1980 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5216666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5352777777777777
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5022222222222221
+-----------------------------------------------------------------------------------------
+| end of epoch  12 | time: 83.96s | training loss 0.1958 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.523611111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5336111111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  13 | time: 83.93s | training loss 0.1937 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5241666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5402777777777777
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  14 | time: 83.87s | training loss 0.1921 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5266666666666666
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5430555555555556
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.506388888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  15 | time: 83.91s | training loss 0.1907 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5275
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5513888888888889
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  16 | time: 83.92s | training loss 0.1895 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5249999999999999
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5538888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  17 | time: 83.89s | training loss 0.1886 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5291666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5511111111111111
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  18 | time: 83.87s | training loss 0.1878 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5561111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5080555555555556
+-----------------------------------------------------------------------------------------
+| end of epoch  19 | time: 84.00s | training loss 0.1869 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5283333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5544444444444445
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5083333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  20 | time: 83.92s | training loss 0.1861 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5263888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5513888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5075000000000001
+-----------------------------------------------------------------------------------------
+| end of epoch  21 | time: 83.94s | training loss 0.1851 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5333333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5530555555555556
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5094444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  22 | time: 83.97s | training loss 0.1846 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5283333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5491666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  23 | time: 83.91s | training loss 0.1839 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5497222222222222
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5097222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  24 | time: 83.92s | training loss 0.1834 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5333333333333332
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5511111111111111
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  25 | time: 83.89s | training loss 0.1827 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5258333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5469444444444445
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  26 | time: 84.01s | training loss 0.1820 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5330555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5449999999999999
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  27 | time: 83.84s | training loss 0.1817 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5275
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5466666666666666
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  28 | time: 83.89s | training loss 0.1811 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5394444444444444
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  29 | time: 83.95s | training loss 0.1808 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5249999999999999
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5352777777777777
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  30 | time: 83.86s | training loss 0.1803 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5413888888888889
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5047222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch  31 | time: 83.83s | training loss 0.1800 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  32 | time: 83.86s | training loss 0.1797 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5275
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5333333333333333
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  33 | time: 83.91s | training loss 0.1794 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5247222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5344444444444444
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5088888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  34 | time: 83.90s | training loss 0.1791 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5213888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5383333333333333
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  35 | time: 83.89s | training loss 0.1789 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5161111111111111
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5333333333333333
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch  36 | time: 83.91s | training loss 0.1783 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5227777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5319444444444446
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  37 | time: 83.91s | training loss 0.1780 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5219444444444444
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5366666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  38 | time: 83.91s | training loss 0.1779 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5197222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5266666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  39 | time: 83.94s | training loss 0.1777 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5191666666666667
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5361111111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5075
+-----------------------------------------------------------------------------------------
+| end of epoch  40 | time: 83.86s | training loss 0.1774 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777777
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5330555555555556
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  41 | time: 83.87s | training loss 0.1772 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5163888888888889
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5302777777777777
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  42 | time: 83.92s | training loss 0.1773 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5211111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5330555555555555
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  43 | time: 83.92s | training loss 0.1769 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5066666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  44 | time: 83.93s | training loss 0.1766 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5183333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5333333333333333
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  45 | time: 83.95s | training loss 0.1766 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5166666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5302777777777778
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5038888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  46 | time: 83.90s | training loss 0.1765 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5063888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  47 | time: 83.92s | training loss 0.1763 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.533611111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5066666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  48 | time: 83.89s | training loss 0.1762 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5172222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  49 | time: 83.94s | training loss 0.1760 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5166666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5341666666666667
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5027777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  50 | time: 83.88s | training loss 0.1760 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5233333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5280555555555555
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  51 | time: 83.89s | training loss 0.1757 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5161111111111112
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5369444444444443
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch  52 | time: 83.90s | training loss 0.1759 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5227777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5283333333333334
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5041666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  53 | time: 83.88s | training loss 0.1757 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5236111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5033333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  54 | time: 83.96s | training loss 0.1753 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777777
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5249999999999999
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5036111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  55 | time: 83.93s | training loss 0.1752 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5202777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666666
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  56 | time: 83.92s | training loss 0.1752 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5205555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222222
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  57 | time: 83.82s | training loss 0.1750 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5172222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  58 | time: 83.87s | training loss 0.1751 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5180555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5372222222222223
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5022222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  59 | time: 83.91s | training loss 0.1750 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5327777777777778
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5019444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  60 | time: 83.89s | training loss 0.1748 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111112
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  61 | time: 83.91s | training loss 0.1747 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5227777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  62 | time: 83.95s | training loss 0.1748 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5141666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5275
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.503611111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  63 | time: 83.91s | training loss 0.1747 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5088888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  64 | time: 83.87s | training loss 0.1748 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5147222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5308333333333333
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  65 | time: 83.85s | training loss 0.1743 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5130555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5256944444444445
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.508888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  66 | time: 83.90s | training loss 0.1742 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5275
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5033333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  67 | time: 83.91s | training loss 0.1743 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222222
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5036111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  68 | time: 83.95s | training loss 0.1741 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5130555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5272222222222221
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5033333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  69 | time: 83.94s | training loss 0.1743 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5138888888888888
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5305555555555556
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  70 | time: 83.91s | training loss 0.1743 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5277777777777778
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  71 | time: 83.92s | training loss 0.1741 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5141666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  72 | time: 83.90s | training loss 0.1739 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5163888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5047222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch  73 | time: 83.93s | training loss 0.1740 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5208333333333334
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  74 | time: 83.92s | training loss 0.1740 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  75 | time: 83.87s | training loss 0.1738 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5161111111111112
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5233333333333333
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  76 | time: 83.87s | training loss 0.1739 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5141666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5222222222222221
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  77 | time: 83.91s | training loss 0.1736 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5163888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  78 | time: 83.91s | training loss 0.1737 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5091666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  79 | time: 83.91s | training loss 0.1734 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5166666666666666
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5261111111111112
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  80 | time: 83.89s | training loss 0.1737 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5172222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5247222222222223
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  81 | time: 83.84s | training loss 0.1736 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888888
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5075000000000001
+-----------------------------------------------------------------------------------------
+| end of epoch  82 | time: 83.94s | training loss 0.1734 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5172222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5075000000000001
+-----------------------------------------------------------------------------------------
+| end of epoch  83 | time: 83.88s | training loss 0.1736 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5119444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5172222222222222
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  84 | time: 83.91s | training loss 0.1736 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5158333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5247222222222222
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  85 | time: 83.95s | training loss 0.1735 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5141666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5205555555555555
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  86 | time: 83.85s | training loss 0.1732 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.516388888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5255555555555556
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  87 | time: 83.94s | training loss 0.1732 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5161111111111112
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5180555555555555
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  88 | time: 83.88s | training loss 0.1733 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.515
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5166666666666666
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  89 | time: 83.95s | training loss 0.1730 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5127777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888888
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  90 | time: 83.87s | training loss 0.1734 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5113888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5202777777777777
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  91 | time: 83.91s | training loss 0.1733 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5163888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5233333333333334
+IntPhys correct frac (rel) is  0.7666666666666667 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  92 | time: 83.91s | training loss 0.1732 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5105555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5208333333333333
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5080555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  93 | time: 83.89s | training loss 0.1734 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888889
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5080555555555556
+-----------------------------------------------------------------------------------------
+| end of epoch  94 | time: 83.84s | training loss 0.1730 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5144444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5241666666666667
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5066666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  95 | time: 83.86s | training loss 0.1730 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5149999999999999
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5227777777777778
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  96 | time: 83.88s | training loss 0.1731 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9333333333333333 IntPhys correct frac (abs) is  0.5127777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  97 | time: 83.89s | training loss 0.1727 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5094444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5205555555555555
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5066666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  98 | time: 83.87s | training loss 0.1729 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5066666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  99 | time: 83.97s | training loss 0.1728 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5127777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5308333333333333
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5094444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch 100 | time: 83.89s | training loss 0.1731 | 
+-----------------------------------------------------------------------------------------
+Namespace(batch_size=256, cuda=True, data='y', dropout=0.1, dry_run=False, embedding_model='in', epochs=100, lr=0.0005, nhead=4, nhid=1024, nlayers=4, seed=1111, tied=False)
+Loaded data
+Training data size:  (61815, 100, 1024)
+Number of training iterations per epoch 241
+Previous embedding loss on training data is  0.18155179572120161
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.49888888888888894
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5019444444444445
+IntPhys correct frac (rel) is  0.5166666666666667 IntPhys correct frac (abs) is  0.4994444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch   1 | time: 92.43s | training loss 0.3880 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.4969444444444444
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5038888888888888
+IntPhys correct frac (rel) is  0.4666666666666667 IntPhys correct frac (abs) is  0.49777777777777776
+-----------------------------------------------------------------------------------------
+| end of epoch   2 | time: 92.32s | training loss 0.2956 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.8666666666666667 IntPhys correct frac (abs) is  0.5038888888888889
+IntPhys correct frac (rel) is  0.8 IntPhys correct frac (abs) is  0.5022222222222222
+IntPhys correct frac (rel) is  0.7166666666666667 IntPhys correct frac (abs) is  0.49999999999999994
+-----------------------------------------------------------------------------------------
+| end of epoch   3 | time: 92.30s | training loss 0.2686 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5063888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5069444444444444
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5027777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch   4 | time: 92.38s | training loss 0.2523 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5122222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5163888888888888
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.49972222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch   5 | time: 92.30s | training loss 0.2356 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.513888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5194444444444445
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5030555555555556
+-----------------------------------------------------------------------------------------
+| end of epoch   6 | time: 92.26s | training loss 0.2231 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.52
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5030555555555556
+-----------------------------------------------------------------------------------------
+| end of epoch   7 | time: 92.35s | training loss 0.2144 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5208333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222222
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5019444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch   8 | time: 92.31s | training loss 0.2086 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5016666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch   9 | time: 92.38s | training loss 0.2044 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5255555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5355555555555556
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5022222222222221
+-----------------------------------------------------------------------------------------
+| end of epoch  10 | time: 92.36s | training loss 0.2014 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5252777777777777
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5386111111111112
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5038888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  11 | time: 92.34s | training loss 0.1991 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5280555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5361111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  12 | time: 92.30s | training loss 0.1971 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5388888888888889
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  13 | time: 92.30s | training loss 0.1954 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5369444444444444
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  14 | time: 92.37s | training loss 0.1939 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5258333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5352777777777777
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  15 | time: 92.26s | training loss 0.1927 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5397222222222222
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  16 | time: 92.36s | training loss 0.1918 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5313888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5411111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5080555555555556
+-----------------------------------------------------------------------------------------
+| end of epoch  17 | time: 92.30s | training loss 0.1908 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5313888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5419444444444445
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5094444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  18 | time: 92.32s | training loss 0.1898 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.54
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  19 | time: 92.29s | training loss 0.1891 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5380555555555555
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.51
+-----------------------------------------------------------------------------------------
+| end of epoch  20 | time: 92.24s | training loss 0.1882 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5308333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5372222222222223
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5075
+-----------------------------------------------------------------------------------------
+| end of epoch  21 | time: 92.36s | training loss 0.1875 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5305555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5413888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  22 | time: 92.28s | training loss 0.1868 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5286111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5377777777777779
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  23 | time: 92.36s | training loss 0.1863 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5383333333333333
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  24 | time: 92.29s | training loss 0.1858 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5291666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5361111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  25 | time: 92.30s | training loss 0.1850 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5250000000000001
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5369444444444444
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  26 | time: 92.32s | training loss 0.1847 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.54
+IntPhys correct frac (rel) is  0.6 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  27 | time: 92.26s | training loss 0.1841 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5372222222222222
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  28 | time: 92.34s | training loss 0.1838 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5194444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5358333333333333
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5047222222222223
+-----------------------------------------------------------------------------------------
+| end of epoch  29 | time: 92.32s | training loss 0.1833 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5244444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5319444444444444
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5083333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  30 | time: 92.32s | training loss 0.1829 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5386111111111112
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  31 | time: 92.32s | training loss 0.1824 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5211111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5386111111111112
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  32 | time: 92.31s | training loss 0.1823 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5197222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5361111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  33 | time: 92.32s | training loss 0.1821 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5183333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5347222222222222
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5033333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  34 | time: 92.36s | training loss 0.1818 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5483333333333333
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  35 | time: 92.37s | training loss 0.1814 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5166666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5338888888888889
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  36 | time: 92.27s | training loss 0.1811 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5197222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.535
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5036111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  37 | time: 92.35s | training loss 0.1809 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5194444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5377777777777778
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5052777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  38 | time: 92.25s | training loss 0.1808 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5166666666666666
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5413888888888889
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  39 | time: 92.32s | training loss 0.1805 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5197222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5380555555555556
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  40 | time: 92.28s | training loss 0.1802 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5191666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5405555555555555
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  41 | time: 92.25s | training loss 0.1802 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5366666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  42 | time: 92.36s | training loss 0.1798 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5244444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5347222222222223
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  43 | time: 92.22s | training loss 0.1797 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5197222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5408333333333334
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5038888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  44 | time: 92.31s | training loss 0.1796 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5191666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5358333333333334
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  45 | time: 92.31s | training loss 0.1793 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5233333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5330555555555556
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5019444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  46 | time: 92.36s | training loss 0.1793 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5177777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5397222222222222
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5041666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  47 | time: 92.25s | training loss 0.1791 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5177777777777779
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5355555555555556
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  48 | time: 92.30s | training loss 0.1792 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.518888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5336111111111111
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  49 | time: 92.38s | training loss 0.1792 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5188888888888888
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5405555555555555
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5033333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  50 | time: 92.38s | training loss 0.1786 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5180555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5349999999999999
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  51 | time: 92.34s | training loss 0.1787 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5172222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5388888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.505
+-----------------------------------------------------------------------------------------
+| end of epoch  52 | time: 92.25s | training loss 0.1787 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5155555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5330555555555555
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  53 | time: 92.34s | training loss 0.1786 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5349999999999999
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5047222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  54 | time: 92.36s | training loss 0.1785 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5136111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.506388888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  55 | time: 92.31s | training loss 0.1785 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5144444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5366666666666666
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  56 | time: 92.37s | training loss 0.1784 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5144444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5061111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  57 | time: 92.26s | training loss 0.1783 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5208333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5388888888888889
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  58 | time: 92.34s | training loss 0.1782 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5183333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5366666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  59 | time: 92.37s | training loss 0.1780 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5166666666666666
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5347222222222221
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  60 | time: 92.23s | training loss 0.1781 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5333333333333334
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.503611111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  61 | time: 92.38s | training loss 0.1779 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5162500000000001
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5369444444444444
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5055555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  62 | time: 92.35s | training loss 0.1778 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5177777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5366666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.506388888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  63 | time: 92.30s | training loss 0.1778 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  64 | time: 92.24s | training loss 0.1778 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5211111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5372222222222223
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  65 | time: 92.41s | training loss 0.1777 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5247222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5347222222222222
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5077777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  66 | time: 92.31s | training loss 0.1777 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5158333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5344444444444445
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5038888888888888
+-----------------------------------------------------------------------------------------
+| end of epoch  67 | time: 92.28s | training loss 0.1776 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5208333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5336111111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5102777777777778
+-----------------------------------------------------------------------------------------
+| end of epoch  68 | time: 92.36s | training loss 0.1778 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5319444444444446
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5086111111111111
+-----------------------------------------------------------------------------------------
+| end of epoch  69 | time: 92.25s | training loss 0.1777 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5330555555555556
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  70 | time: 92.29s | training loss 0.1775 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5233333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5375
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  71 | time: 92.25s | training loss 0.1774 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5222222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5341666666666667
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5072222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  72 | time: 92.32s | training loss 0.1773 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5158333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5327777777777778
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  73 | time: 92.30s | training loss 0.1771 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5186111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666667
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5052777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  74 | time: 92.30s | training loss 0.1773 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5211111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222223
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5091666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  75 | time: 92.31s | training loss 0.1771 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5172222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5308333333333334
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  76 | time: 92.33s | training loss 0.1771 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5175
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5322222222222223
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5105555555555557
+-----------------------------------------------------------------------------------------
+| end of epoch  77 | time: 92.35s | training loss 0.1771 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5261111111111112
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5358333333333334
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  78 | time: 92.30s | training loss 0.1769 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5222222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5391666666666667
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  79 | time: 92.33s | training loss 0.1770 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5169444444444444
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5305555555555554
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5080555555555556
+-----------------------------------------------------------------------------------------
+| end of epoch  80 | time: 92.31s | training loss 0.1770 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.533611111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.508888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  81 | time: 92.30s | training loss 0.1770 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5213888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5372222222222223
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5061111111111112
+-----------------------------------------------------------------------------------------
+| end of epoch  82 | time: 92.35s | training loss 0.1768 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5163888888888889
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5275
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5125
+-----------------------------------------------------------------------------------------
+| end of epoch  83 | time: 92.29s | training loss 0.1768 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5208333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5305555555555557
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5075000000000001
+-----------------------------------------------------------------------------------------
+| end of epoch  84 | time: 92.32s | training loss 0.1767 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5205555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5327777777777778
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.5102777777777777
+-----------------------------------------------------------------------------------------
+| end of epoch  85 | time: 92.28s | training loss 0.1768 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5194444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5338888888888889
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5049999999999999
+-----------------------------------------------------------------------------------------
+| end of epoch  86 | time: 92.42s | training loss 0.1765 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5236111111111111
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5294444444444444
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5097222222222222
+-----------------------------------------------------------------------------------------
+| end of epoch  87 | time: 92.30s | training loss 0.1766 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5183333333333333
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5313888888888889
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  88 | time: 92.37s | training loss 0.1766 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5177777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.53
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5066666666666666
+-----------------------------------------------------------------------------------------
+| end of epoch  89 | time: 92.38s | training loss 0.1766 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5244444444444445
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5091666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  90 | time: 92.28s | training loss 0.1766 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5205555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5258333333333333
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5063888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  91 | time: 92.37s | training loss 0.1765 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5216666666666667
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5263888888888889
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5044444444444445
+-----------------------------------------------------------------------------------------
+| end of epoch  92 | time: 92.27s | training loss 0.1765 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5225
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5316666666666666
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch  93 | time: 92.40s | training loss 0.1766 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5230555555555556
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.525
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5041666666666667
+-----------------------------------------------------------------------------------------
+| end of epoch  94 | time: 92.28s | training loss 0.1763 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5258333333333334
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5277777777777778
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5108333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  95 | time: 92.29s | training loss 0.1764 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5197222222222222
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.7333333333333333 IntPhys correct frac (abs) is  0.508888888888889
+-----------------------------------------------------------------------------------------
+| end of epoch  96 | time: 92.37s | training loss 0.1762 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5202777777777778
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5311111111111111
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5080555555555555
+-----------------------------------------------------------------------------------------
+| end of epoch  97 | time: 92.33s | training loss 0.1765 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5272222222222223
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5325
+IntPhys correct frac (rel) is  0.6333333333333333 IntPhys correct frac (abs) is  0.5058333333333334
+-----------------------------------------------------------------------------------------
+| end of epoch  98 | time: 92.31s | training loss 0.1763 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.5205555555555555
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5347222222222222
+IntPhys correct frac (rel) is  0.6666666666666666 IntPhys correct frac (abs) is  0.5083333333333333
+-----------------------------------------------------------------------------------------
+| end of epoch  99 | time: 92.26s | training loss 0.1763 | 
+-----------------------------------------------------------------------------------------
+IntPhys correct frac (rel) is  0.9666666666666667 IntPhys correct frac (abs) is  0.525
+IntPhys correct frac (rel) is  1.0 IntPhys correct frac (abs) is  0.5297222222222222
+IntPhys correct frac (rel) is  0.7 IntPhys correct frac (abs) is  0.5069444444444444
+-----------------------------------------------------------------------------------------
+| end of epoch 100 | time: 92.36s | training loss 0.1761 | 
+-----------------------------------------------------------------------------------------
+Done
