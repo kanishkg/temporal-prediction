@@ -13,7 +13,7 @@ module purge
 module load cuda-10.1
 
 python -u /misc/vlgscratch4/LakeGroup/emin/temporal-prediction/evaluate_adept.py \
---embedding-model 'in' \
+--embedding-model 'say' \
 --dynamics-data 'a' \
 --data-dir '/misc/vlgscratch4/LakeGroup/emin/ADEPT/test'
 

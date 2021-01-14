@@ -27,7 +27,6 @@ parser.add_argument('--workers', default=32, type=int, metavar='N', help='number
 parser.add_argument('--embedding-model', default='in', type=str, choices=['say', 'in', 'rand'], help='which model to use for embedding')
 parser.add_argument('--dynamics-data', default='a', type=str, choices=['s', 'a', 'y', 'intphys'], help='which data to use for training dynamics model')
 parser.add_argument('--data-dir', default='', type=str, metavar='PATH', help='path to data (default: none)')
-parser.add_argument('--data', default='train', type=str, choices=['train', 'O1', 'O2', 'O3'], help='which subset of intphys')
 parser.add_argument('--world-size', default=-1, type=int, help='number of nodes for distributed training')
 parser.add_argument('--rank', default=-1, type=int, help='node rank for distributed training')
 parser.add_argument('--dist-url', default='tcp://224.66.41.62:23456', type=str, help='url used to set up distributed training')
@@ -102,6 +101,8 @@ def main_worker(gpu, ngpus_per_node, args):
     dir_list = os.listdir(args.data_dir)
     dir_list.sort()
 
+    scores = {}
+
     for d in dir_list:
 
         normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
@@ -116,21 +117,21 @@ def main_worker(gpu, ngpus_per_node, args):
             num_workers=args.workers, pin_memory=True, sampler=None
         )
 
-        print('Directory:', os.path.join(args.data_dir, d))
-        print('Dataset size:', len(train_dataset))
-        print('Loader size:', len(train_loader))
-
         embeddings = evaluate(train_loader, emb_model, args)
         embeddings = torch.matmul(embeddings, projection)
         embeddings = torch.unsqueeze(embeddings, 1)
-        print('Embeddings shape:', embeddings.shape)
 
         dyn_model.eval()
     
         with torch.no_grad():
             output = dyn_model(embeddings)
-            implausibility = torch.mean(torch.abs(embeddings[1:, :, :] - output[:-1, :, :]), (0, 2))
-            print(implausibility, implausibility.shape)
+            implausibility = torch.mean(torch.abs(embeddings[1:, :, :] - output[:-1, :, :]), (0, 2)).cpu().numpy()
+            print('Directory:', os.path.join(args.data_dir, d), 'Implausibility: {:5.8f}'.format(implausibility[0]))
+
+        scores[d] = implausibility
+
+    with open(args.embedding_model + '_' + args.dynamics_data + '_' + 'adeptscores.json', 'w') as json_file:
+        json.dump(scores, json_file)
 
     return
 
