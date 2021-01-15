@@ -126,11 +126,11 @@ def main_worker(gpu, ngpus_per_node, args):
         with torch.no_grad():
             output = dyn_model(embeddings)
             implausibility = torch.mean(torch.abs(embeddings[1:, :, :] - output[:-1, :, :]), (0, 2)).cpu().numpy()
-            print('Directory:', os.path.join(args.data_dir, d), 'Implausibility: {:5.8f}'.format(implausibility[0]))
+            print('Clip directory:', os.path.join(args.data_dir, d), 'Implausibility: {:5.8f}'.format(implausibility[0]))
 
-        scores[d] = implausibility
+        scores[d] = float(implausibility[0])
 
-    with open(args.embedding_model + '_' + args.dynamics_data + '_' + 'adeptscores.json', 'w') as json_file:
+    with open(args.embedding_model + '_' + args.dynamics_data + '_' + 'adept_scores.json', 'w') as json_file:
         json.dump(scores, json_file)
 
     return
