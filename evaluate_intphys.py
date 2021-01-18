@@ -86,17 +86,24 @@ def main_worker(gpu, ngpus_per_node, args):
     return
 
 
-def load_intphys(filename, projection):
+def load_intphys(filename, projection, ctrl):
     intphys = np.load('../intphys/' + filename)
     intphys_x = intphys['x']
     intphys_x = np.dot(intphys_x, projection.T)
     intphys_y = intphys['y']
     intphys_x = torch.from_numpy(intphys_x).float().transpose(0, 1).cuda()
 
+    # two of the clips in O1 contain all possible clips, the following is a quick fix for that 
+    if ctrl:
+        intphys_y[911*4] = 0
+        intphys_y[911*4 + 1] = 0
+        intphys_y[994*4] = 0
+        intphys_y[994*4 + 1] = 0
+
     return intphys_x, intphys_y
 
 
-def evaluate_intphys(model, intphys_x, intphys_y, ctrl):
+def evaluate_intphys(model, intphys_x, intphys_y):
 
     model.eval()
 
@@ -109,13 +116,6 @@ def evaluate_intphys(model, intphys_x, intphys_y, ctrl):
                 output = torch.cat((output, batch_output), 1)
 
         assert output.size(1) == 4320        
-
-        # two of the clips in O1 contain all possible clips, the following is a quick fix for that 
-        if ctrl:
-            intphys_y[911*4] = 0
-            intphys_y[911*4 + 1] = 0
-            intphys_y[994*4] = 0
-            intphys_y[994*4 + 1] = 0
 
         implausibility_signal = torch.mean(torch.abs(intphys_x[1:, :, :] - output[:-1, :, :]), 2)
 

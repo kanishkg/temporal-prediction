@@ -1,0 +1,10 @@
+Namespace(dist_backend='nccl', dist_url='tcp://224.66.41.62:23456', dynamics_data='y', embedding_model='in', gpu=None, multiprocessing_distributed=False, rank=-1, workers=32, world_size=-1)
+Traceback (most recent call last):
+  File "/misc/vlgscratch4/LakeGroup/emin/temporal-prediction/evaluate_intphys.py", line 137, in <module>
+    main()
+  File "/misc/vlgscratch4/LakeGroup/emin/temporal-prediction/evaluate_intphys.py", line 58, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "/misc/vlgscratch4/LakeGroup/emin/temporal-prediction/evaluate_intphys.py", line 78, in main_worker
+    intphys_x_o1, intphys_y_o1 = load_intphys(intphys_testfile_o1, projection, 1)
+TypeError: load_intphys() takes 2 positional arguments but 3 were given
+Done

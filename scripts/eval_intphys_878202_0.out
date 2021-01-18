@@ -1,0 +1,1 @@
+Namespace(dist_backend='nccl', dist_url='tcp://224.66.41.62:23456', dynamics_data='y', embedding_model='in', gpu=None, multiprocessing_distributed=False, rank=-1, workers=32, world_size=-1)
