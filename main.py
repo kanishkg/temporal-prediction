@@ -69,10 +69,6 @@ emsize = train_data.size(2)
 # Load intphys
 ###############################################################################
 
-intphys_devfile_o1 = 'intphys_dev_O1_' + args.embedding_model + '.npz'
-intphys_devfile_o2 = 'intphys_dev_O2_' + args.embedding_model + '.npz'
-intphys_devfile_o3 = 'intphys_dev_O3_' + args.embedding_model + '.npz'
-
 def load_intphys(filename):
     intphys = np.load('../intphys/' + filename)
     intphys_x = intphys['x']
@@ -81,6 +77,10 @@ def load_intphys(filename):
     intphys_x = torch.from_numpy(intphys_x).float().transpose(0, 1).cuda()
 
     return intphys_x, intphys_y
+
+intphys_devfile_o1 = 'intphys_dev_O1_' + args.embedding_model + '.npz'
+intphys_devfile_o2 = 'intphys_dev_O2_' + args.embedding_model + '.npz'
+intphys_devfile_o3 = 'intphys_dev_O3_' + args.embedding_model + '.npz'
 
 intphys_x_o1, intphys_y_o1 = load_intphys(intphys_devfile_o1)
 intphys_x_o2, intphys_y_o2 = load_intphys(intphys_devfile_o2)

@@ -26,7 +26,7 @@ parser.add_argument('--workers', default=32, type=int, metavar='N', help='number
 parser.add_argument('--batch-size', default=100, type=int, metavar='N', help='mini-batch size (default: 100)')
 parser.add_argument('--model', default='say', type=str, choices=['say', 'in', 'rand'], help='which model to use for caching')
 parser.add_argument('--data-dir', default='', type=str, metavar='PATH', help='path to data (default: none)')
-parser.add_argument('--data', default='train', type=str, choices=['train', 'O1', 'O2', 'O3'], help='which subset of intphys')
+parser.add_argument('--data', default='train', type=str, choices=['train', 'dev_O1', 'dev_O2', 'dev_O3', 'test_O1', 'test_O2', 'test_O3'], help='which subset of intphys')
 parser.add_argument('--world-size', default=-1, type=int, help='number of nodes for distributed training')
 parser.add_argument('--rank', default=-1, type=int, help='node rank for distributed training')
 parser.add_argument('--dist-url', default='tcp://224.66.41.62:23456', type=str, help='url used to set up distributed training')
@@ -95,12 +95,18 @@ def main_worker(gpu, ngpus_per_node, args):
 
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
-    if args.data == 'O1':
+    if args.data == 'dev_O1':
         data_path = os.path.join(args.data_dir, 'dev/O1')
-    elif args.data == 'O2':
+    elif args.data == 'dev_O2':
         data_path = os.path.join(args.data_dir, 'dev/O2')
-    elif args.data == 'O3':
+    elif args.data == 'dev_O3':
         data_path = os.path.join(args.data_dir, 'dev/O3')
+    elif args.data == 'test_O1':
+        data_path = os.path.join(args.data_dir, 'test/O1')
+    elif args.data == 'test_O2':
+        data_path = os.path.join(args.data_dir, 'test/O2')
+    elif args.data == 'test_O3':
+        data_path = os.path.join(args.data_dir, 'test/O3')
     elif args.data == 'train':
         data_path = os.path.join(args.data_dir, 'train')
 
@@ -116,21 +122,36 @@ def main_worker(gpu, ngpus_per_node, args):
 
     embeddings, components = evaluate(train_loader, model, args)
     
-    if args.data == 'O1': 
+    if args.data == 'dev_O1': 
         with open(os.path.join(args.data_dir, 'O1_dev_labels.json')) as jf_1:
             label_dict_1 = json.load(jf_1)
         labels_1 = np.array(list(label_dict_1.values()))
         np.savez('intphys_dev_O1_' + args.model, x=embeddings, W=components, y=labels_1)
-    elif args.data == 'O2':
+    elif args.data == 'dev_O2':
         with open(os.path.join(args.data_dir, 'O2_dev_labels.json')) as jf_2:
             label_dict_2 = json.load(jf_2)
         labels_2 = np.array(list(label_dict_2.values()))
         np.savez('intphys_dev_O2_' + args.model, x=embeddings, W=components, y=labels_2)
-    elif args.data == 'O3':
+    elif args.data == 'dev_O3':
         with open(os.path.join(args.data_dir, 'O3_dev_labels.json')) as jf_3:
             label_dict_3 = json.load(jf_3)
         labels_3 = np.array(list(label_dict_3.values()))
         np.savez('intphys_dev_O3_' + args.model, x=embeddings, W=components, y=labels_3)
+    elif args.data == 'test_O1': 
+        with open(os.path.join(args.data_dir, 'O1_test_labels.json')) as jf_1:
+            label_dict_1 = json.load(jf_1)
+        labels_1 = np.array(list(label_dict_1.values()))
+        np.savez('intphys_test_O1_' + args.model, x=embeddings, W=components, y=labels_1)
+    elif args.data == 'test_O2':
+        with open(os.path.join(args.data_dir, 'O2_test_labels.json')) as jf_2:
+            label_dict_2 = json.load(jf_2)
+        labels_2 = np.array(list(label_dict_2.values()))
+        np.savez('intphys_test_O2_' + args.model, x=embeddings, W=components, y=labels_2)
+    elif args.data == 'test_O3':
+        with open(os.path.join(args.data_dir, 'O3_test_labels.json')) as jf_3:
+            label_dict_3 = json.load(jf_3)
+        labels_3 = np.array(list(label_dict_3.values()))
+        np.savez('intphys_test_O3_' + args.model, x=embeddings, W=components, y=labels_3)    
     elif args.data == 'train':
         np.savez('intphys_train_' + args.model, x=embeddings, W=components)
 

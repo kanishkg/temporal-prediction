@@ -94,7 +94,7 @@ def main_worker(gpu, ngpus_per_node, args):
     projection = np.load('../caches_saycam/' + args.embedding_model + '_' + args.dynamics_data + '_15fps_1024' + '.npz')['W']
     projection = torch.from_numpy(projection).float().transpose(0, 1).cuda()
 
-    dyn_model = TransformerModel(1024, 4, 1024, 4, 0.05).cuda()
+    dyn_model = TransformerModel(1024, 4, 1024, 4, 0.1).cuda()
     checkpoint = torch.load(args.embedding_model + '_' + args.dynamics_data + '_model.tar')
     dyn_model.load_state_dict(checkpoint['model_state_dict'])
 
@@ -138,7 +138,7 @@ def main_worker(gpu, ngpus_per_node, args):
 
 def evaluate(data_loader, model, args):
 
-    # switch to evaluate mode
+    # switch to eval mode
     model.eval()
 
     with torch.no_grad():
